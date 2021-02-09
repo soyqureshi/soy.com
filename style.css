@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: blueviolet;
+    background-color: rgb(73, 2, 73);
     /* border: 1px solid red; */
     font-family: 'Hammersmith One', sans-serif;
 }
@@ -41,54 +41,98 @@ header {
 }
 
 .navbar-up {
-    background-color: thistle;
+    background-image: linear-gradient(to top, yellow, green);
     width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 15px;
-    /* padding: 2%; */
-    border: 3px solid yellow;
+    border: 3px solid black;
     border-radius: 20px;
     
 }
 
 .navbar-up a {
-    background-color: thistle;
-    border-right: 3px solid yellow ;
+    background-image: linear-gradient(to top, yellow, green);
+    border-right: 3px solid black ;
+    color: rgb(73, 2, 73);
+
     
     text-decoration: none;
     font-size: 180%;
-    padding-right: 2%;
+    padding-right: 5%;
     text-align: center;   
 }
 
 .navbar-down {
-    width: 90%;
-    height: 50%;
+    width: 100%;
+    height: auto;
     display: flex;
-    flex-direction: column;
-    
-    
-    
+    flex-direction: column;    
     margin-top: 20px;
-    border: 2px solid red;
-    font-size: 200%;
+    
+    font-size: 200%;   
+    padding-left: 5%;
+    
+}
+
+.navbar-hey {
+    font-size: 150%;
+    color: yellowgreen;
+}
+
+.navbar-sq {
+    font-size: 300%;
+    color: orange;
+
+}
+
+.navbar-web {
+    font-size: 150%;
+    color: yellowgreen;
+
+}
+
+
+/* ------------------------------rightside---------------------------------------------- */
+
+/* .right-side {
+    background-image: url(img/SQ.jpg);
+    background-size: cover;    
+    width: 50%;
+    background-repeat: no-repeat; 
+    position: relative;
+    z-index: 2;
+    
     
     
 }
 
-
-
-/* ------------------------------rightside---------------------------------------------- */
+.logo img {
+    position: absolute;
+    width: 10%;
+    z-index: 1;
+} */
 
 .right-side {
     width: 50%;
     
 }
 
+.logo img {
+    
+    position: absolute;
+    z-index: 1;
+
+}
 
 
+.me img {
+    position: relative;
+    width: 100%;
+    max-height:initial;
+    
+}
 
 
 
@@ -126,26 +170,43 @@ header {
     .navbar-up {
        
         width: 100%;
-        display: flex;
-        border-radius: 10px;
+        
         font-size: 60%;
     
         
     }
 
     .navbar-down {
-        
-        font-size: 150%;
+        width: 100%;
+        height: auto;
+        font-size: 100%;
         text-align: center;
+        padding: 4%;
         
     }
 
-   
+    .navbar-sq {
+        font-size: 300%;
+        color: orange;
     
+    }
+    
+    .navbar-web {
+        font-size: 100%;
+        color: yellowgreen;
+    
+    }
 
+    .logo img {
+        width: 20%;
+        height: auto;
+    }
 
-
-
+    
+        
+        
+        
+    }
 
 
 
